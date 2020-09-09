@@ -456,37 +456,7 @@ body {
   margin-top: 1rem;
   transition: 300ms;
 }
-/* .main1:hover{
-  border:2px solid #e65f78;
-  cursor: pointer;
-  transform:scale(0.98)
-}
-.main2:hover{
-  border:2px solid #e65f78;
-  cursor: pointer;
-  transform:scale(0.98)
-
-}
-.main3:hover{
-  border:2px solid #e65f78;
-  cursor: pointer;
-  transform:scale(0.98)
-
-} */
-/* .main:hover h1{
-  color: black;
-}
-.main:hover h2{
-  color: black;
-}
-.main:hover h2 span{
-  color: black;
-}
-.main:hover p{
-  color: black;
-  /* font-weight: bolder; */
-}
-.main:hover a{ */
+.main:hover a{ 
   color: black;
 }
 .blog .img1,.img2,.img3 {
@@ -678,4 +648,20 @@ input {
   color: #e65f78;
   font-weight: bolder;
   cursor: pointer;
+}
+@media screen and (max-width: 570px) {
+  .image {
+    width: 23rem;
+  }
+  .header {
+    justify-content:center;
+  }
+}
+@media screen and (max-width: 380px){
+  .image {
+    width: 20rem;
+  }
+}
+div{
+  /* border: 1px solid green; */
 }
