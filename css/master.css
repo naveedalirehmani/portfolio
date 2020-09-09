@@ -70,12 +70,13 @@ body {
   padding-top: 5.5rem;
 }
 .download h2 {
-  text-align: left;
-  margin-left: 2rem;
   margin-top: 2rem;
   font-size: 3rem;
   margin-bottom: 1.5rem;
   font-weight: 400;
+}
+.download h2 span {
+  color: #e65f78;
 }
 .download p {
   font-weight: lighter;
@@ -652,6 +653,7 @@ input {
 @media screen and (max-width: 570px) {
   .image {
     width: 23rem;
+    height: 20rem;
   }
   .header {
     justify-content:center;
@@ -660,8 +662,8 @@ input {
 @media screen and (max-width: 380px){
   .image {
     width: 20rem;
+    height: 18rem;
   }
 }
 div{
-  /* border: 1px solid green; */
 }

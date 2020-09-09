@@ -70,12 +70,13 @@ body {
   padding-top: 5.5rem;
 }
 .download h2 {
-  text-align: left;
-  margin-left: 2rem;
   margin-top: 2rem;
   font-size: 3rem;
   margin-bottom: 1.5rem;
   font-weight: 400;
+}
+.download h2 span {
+  color: #e65f78;
 }
 .download p {
   font-weight: lighter;
@@ -456,37 +457,7 @@ body {
   margin-top: 1rem;
   transition: 300ms;
 }
-/* .main1:hover{
-  border:2px solid #e65f78;
-  cursor: pointer;
-  transform:scale(0.98)
-}
-.main2:hover{
-  border:2px solid #e65f78;
-  cursor: pointer;
-  transform:scale(0.98)
-
-}
-.main3:hover{
-  border:2px solid #e65f78;
-  cursor: pointer;
-  transform:scale(0.98)
-
-} */
-/* .main:hover h1{
-  color: black;
-}
-.main:hover h2{
-  color: black;
-}
-.main:hover h2 span{
-  color: black;
-}
-.main:hover p{
-  color: black;
-  /* font-weight: bolder; */
-}
-.main:hover a{ */
+.main:hover a{ 
   color: black;
 }
 .blog .img1,.img2,.img3 {
@@ -682,6 +653,7 @@ input {
 @media screen and (max-width: 570px) {
   .image {
     width: 23rem;
+    height: 20rem;
   }
   .header {
     justify-content:center;
@@ -690,8 +662,8 @@ input {
 @media screen and (max-width: 380px){
   .image {
     width: 20rem;
+    height: 18rem;
   }
 }
 div{
-  /* border: 1px solid green; */
 }
