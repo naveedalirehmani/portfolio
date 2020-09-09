@@ -679,3 +679,19 @@ input {
   font-weight: bolder;
   cursor: pointer;
 }
+@media screen and (max-width: 570px) {
+  .image {
+    width: 23rem;
+  }
+  .header {
+    justify-content:center;
+  }
+}
+@media screen and (max-width: 380px){
+  .image {
+    width: 20rem;
+  }
+}
+div{
+  /* border: 1px solid green; */
+}
