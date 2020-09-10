@@ -26,6 +26,7 @@ body {
   justify-content: space-between;
   padding: 1rem 0px;
   flex-wrap: wrap;
+  border-bottom:1px solid #e65f78;
 }
 .kerri {
   color: white;
@@ -664,6 +665,7 @@ input {
     width: 20rem;
     height: 18rem;
   }
+ 
 }
 div{
 }
