@@ -146,7 +146,7 @@ body {
   margin: auto;
   display: flex;
   justify-content: center;
-  padding: 6rem 0rem 5rem 0rem;
+  padding: 6rem 0rem 6rem 0rem;
   flex-wrap: wrap;
   justify-content: space-around;
 }
@@ -373,7 +373,7 @@ body {
   margin-bottom: 0.7rem;
 }
 .offer button {
-  border: 1px solid white;
+  border: 1px solid #c0bfbf;
   margin: 0.3rem;
   padding: 0.5rem 1rem;
   border-radius: 30px;
@@ -654,10 +654,13 @@ input {
 @media screen and (max-width: 570px) {
   .image {
     width: 23rem;
-    height: 20rem;
+    height: 17rem;
   }
   .header {
     justify-content:center;
+  }
+  .download h2 {
+    font-size: 2rem;
   }
 }
 @media screen and (max-width: 380px){
@@ -668,4 +671,5 @@ input {
  
 }
 div{
+  /* border: 1px solid green; */
 }
