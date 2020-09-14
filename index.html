@@ -385,8 +385,10 @@
         var x = document.querySelector(".navtoggle");
         if(x.style.display == "none"){
           x.style.display="block"
-        }else{
+          x.style.transition="500ms"
+          }else{
           x.style.display="none"
+
         }
       }
 

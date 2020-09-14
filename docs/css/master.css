@@ -19,6 +19,7 @@ html{
 }
 .home {
   background-image: url(../images/housedark3.jpg);
+  background-attachment: fixed;
   background-size: cover;
   /* background-position:bottom; */
 }
@@ -39,6 +40,7 @@ html{
 }
 .toggle ul{
   margin:0px;
+  /* transition: 500ms; */
 }
 .toggle ul li{
   list-style:none;
