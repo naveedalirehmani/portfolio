@@ -13,26 +13,27 @@
  
     <!-- section 1 home ######################################## -->
 
-    <section class="home">
+    <section class="home" id="#home">
       <div class="container-1">
-        <header class="header">
-          <a class="kerri" href="home">Naveed</a>
-          <nav class="navbar">
-            <ul>
-              <li><a class="red" href="Home.html"> Home</a></li>
-              <li><a href="about.html"> about</a></li>
-              <li><a href="services.html"> services</a></li>
-              <li><a href="client.html"> client</a></li>
-              <li><a href="Portfolio.html"> Portfolio</a></li>
-              <li><a href="blog.html"> blog</a></li>
-              <li><a href="contact.html"> contact</a></li>
+        <div class="nav">
+         <a class="kerri" href="home">Naveed</a>
+         <div class="toggle">
+          <span class="list fas fa-list" onclick="toggle()"></span>
+            <ul class="navtoggle">
+              <li><a class="red" href="#Home"> Home</a></li>
+              <li><a href="#aboutme"> about</a></li>
+              <li><a href="#services"> services</a></li>
+              <li><a href="#client"> client</a></li>
+              <li><a href="#work"> work</a></li>
+              <li><a href="#blog"> blog</a></li>
+              <li><a href="#contact"> contact</a></li>
             </ul>
-          </nav>
-        </header>
+          </div>
+        </div>
         <div class="display">
           <div class="download">
-            <h1>Welcome</h1>
-            <h2>I'M <span> Naveed Rehmani!</span></h2>
+            <h1>WELCOME</h1>
+            <h2>I'm <span> Naveed Rehmani!</span></h2>
             <p>
               It a long established fact that a reader will be of a page when
               established fact looking at it's layout.
@@ -42,11 +43,11 @@
           </div>
         </div>
       </div>
+    </section>
 
       <!-- section 2 About Me ######################################## -->
     
-    </section>
-    <section class="aboutme">
+    <section class="aboutme" id="aboutme">
       <div class="container-2">
         <div class="border">
           <img class="image" src="./images/red1dark.png" alt="image not found"  />
@@ -75,7 +76,7 @@
       <!-- section 3 services ######################################################### -->
   
     </section>
-    <section class="services">
+    <section class="services" id="services">
       <div class="container-3">
         <div class="universal">
           <h1><span>Our </span>Services</h1>
@@ -146,7 +147,7 @@
 
     <!-- section 4 hire me ############################################### -->
 
-    <section class="hireme">
+    <section class="hireme" id="hireme">
       <div class="container-4">
         <h1>i am available for freelancer.</h1>
         <button class="btn secondary" data-tolltip="tooltip">hire me!</button>
@@ -155,7 +156,7 @@
 
     <!-- section 5 clients################################### -->
 
-    <section class="client">
+    <section class="client" id="client">
       <div class="container-5">
         <div class="universal">
           <h1><span>Our </span>Client</h1>
@@ -189,7 +190,7 @@
 
     <!-- section 6 work   ################################3## -->
 
-    <section class="work">
+    <section class="work" id="work">
       <div class="container-6">
         <div class="universal">
           <h1><span>Our </span>Works</h1>
@@ -262,7 +263,7 @@
 
     <!-- section 7 blog#################################################33 -->
    
-    <section class="blog">
+    <section class="blog" id="blog">
       <div class="container-7">
         <div class="universal">
           <h1><span>Our </span>Blog</h1>
@@ -315,7 +316,7 @@
 
     <!-- section contact us 8 #########################################3 -->
 
-    <section class="contact">
+    <section class="contact" id="contact">
       <div class="container-8">
         <div class="universal">
           <h1><span>Contact </span>Us</h1>
@@ -379,5 +380,16 @@
         </a>
       </div>
     </section>
+    <script>
+      function toggle(){
+        var x = document.querySelector(".navtoggle");
+        if(x.style.display == "none"){
+          x.style.display="block"
+        }else{
+          x.style.display="none"
+        }
+      }
+
+    </script>
   </body>
 </html>

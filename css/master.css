@@ -22,41 +22,55 @@ html{
   background-size: cover;
   /* background-position:bottom; */
 }
-.header {
-  letter-spacing: 0.1rem;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 1rem 0px;
-  flex-wrap: wrap;
-  border-bottom:1px solid #e65f78;
+
+.toggle{
+   text-align: right;
+   padding-top:20px ;
+}
+.toggle span{
+  color:white;
+  font-size:2rem;
+  cursor:pointer;
+  display:none;
+  transition:250ms;
+}
+.toggle span:hover{
+  color: #e65f78;
+}
+.toggle ul{
+  margin:0px;
+}
+.toggle ul li{
+  list-style:none;
+  display: inline;
+  margin: 20px;
+
+}
+
+.toggle ul a{
+  color:white;
+  text-decoration: none;
+  transition:250ms;
+}
+.toggle ul a:hover{
+  color: #e65f78;
 }
 .kerri {
+  padding-top:20px ;
+  float: left;
   color: white;
   text-decoration: none;
   font-weight: bolder;
   font-size: 2rem;
-  transition: 500ms;
+  transition: 250ms;
 }
 .kerri:hover {
   color: #e65f78;
 }
-.navbar ul {
-  display: flex;
-  flex-wrap: wrap;
-  list-style: none;
-  letter-spacing: 0rem;
-}
-.navbar a {
-  padding: 0.9rem;
-  transition: 500ms;
-  color: white;
-  text-decoration: none;
-}
 .red {
   color: #e65f78;
 }
-.navbar a:hover {
+.nav a:hover {
   color: #e65f78;
 }
 .display {
@@ -659,8 +673,8 @@ input {
     width: 23rem;
     height: 17rem;
   }
-  .header {
-    justify-content:center;
+  .kerri {
+    margin-left:32%;
   }
   .download h2 {
     font-size: 2rem;
@@ -673,6 +687,21 @@ input {
   }
  
 }
+@media screen and (max-width: 880px){
+  .nav span{
+    display:block;
+  }
+  .nav ul {
+    display: none;
+  }
+  .nav ul li{
+    display: block;
+    margin: 10px;
+  
+  }
+ 
+}
+
 div{
-  /* border: 1px solid green; */
+  /* border: 1px solid green;  */
 }

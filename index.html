@@ -15,10 +15,11 @@
 
     <section class="home" id="#home">
       <div class="container-1">
-        <header class="header">
-          <a class="kerri" href="home">Naveed</a>
-          <nav class="navbar">
-            <ul>
+        <div class="nav">
+         <a class="kerri" href="home">Naveed</a>
+         <div class="toggle">
+          <span class="list fas fa-list" onclick="toggle()"></span>
+            <ul class="navtoggle">
               <li><a class="red" href="#Home"> Home</a></li>
               <li><a href="#aboutme"> about</a></li>
               <li><a href="#services"> services</a></li>
@@ -27,8 +28,8 @@
               <li><a href="#blog"> blog</a></li>
               <li><a href="#contact"> contact</a></li>
             </ul>
-          </nav>
-        </header>
+          </div>
+        </div>
         <div class="display">
           <div class="download">
             <h1>WELCOME</h1>
@@ -42,10 +43,10 @@
           </div>
         </div>
       </div>
+    </section>
 
       <!-- section 2 About Me ######################################## -->
     
-    </section>
     <section class="aboutme" id="aboutme">
       <div class="container-2">
         <div class="border">
@@ -379,5 +380,16 @@
         </a>
       </div>
     </section>
+    <script>
+      function toggle(){
+        var x = document.querySelector(".navtoggle");
+        if(x.style.display == "none"){
+          x.style.display="block"
+        }else{
+          x.style.display="none"
+        }
+      }
+
+    </script>
   </body>
 </html>
