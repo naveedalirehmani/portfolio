@@ -5,11 +5,14 @@ body {
   margin: 0px;
   padding: 0px;
   font-family: "Lato", sans-serif;
+  scroll-snap-type: y mandatory;
 }
-html{
+/* html{
   scroll-behavior:smooth;
+} */
+section{
+  scroll-snap-align:start;
 }
-
 /* section 1 home ############################# */
 
 .container-1 {
@@ -670,10 +673,10 @@ input {
   font-weight: bolder;
   cursor: pointer;
 }
-@media screen and (max-width: 570px) {
+@media screen and (max-width: 641px) {
   .image {
-    width: 23rem;
-    height: 17rem;
+    width: 28rem;
+    height: 22rem;
   }
   .kerri {
     margin-left:32%;
@@ -682,14 +685,14 @@ input {
     font-size: 2rem;
   }
 }
-@media screen and (max-width: 380px){
+@media screen and (max-width: 481px){
   .image {
     width: 20rem;
     height: 18rem;
   }
  
 }
-@media screen and (max-width: 880px){
+@media screen and (max-width: 961px){
   .nav span{
     display:block;
   }
