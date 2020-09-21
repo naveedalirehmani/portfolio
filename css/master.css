@@ -5,9 +5,9 @@ body {
   margin: 0px;
   padding: 0px;
   font-family: "Lato", sans-serif;
-  scroll-snap-type: y mandatory;
 }
 html{
+  scroll-snap-type: y mandatory;
   scroll-behavior:smooth;
 }
 section{
